@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve wte
+After=network.target
+
+[Service]
+User=ploywide
+Group=www-data
+WorkingDirectory=/var/www/wte
+Environment="PATH=/var/www/wte/venv/bin"
+ExecStart=/var/www/wte/venv/bin/uwsgi --ini config.ini
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:elevation="4dp"
+        tools:targetApi="lollipop" />
+
+    <rubikstudio.library.LuckyWheelView
+        android:layout_centerInParent="true"
+        app:lkwBackgroundColor="#FF9800"
+        app:lkwTopTextColor="#263238"
+        app:lkwCenterImage="@drawable/wheel"
+        app:lkwCursor="@drawable/ic_cursor"
+        android:id="@+id/luckyWheel"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        app:lkwEdgeColor="#e2e5eb"
+        app:lkwEdgeWidth="25"
+        app:lkwTopTextPadding="10dp"
+        app:lkwTopTextSize="14sp"
+        app:lkwSecondaryTextSize="25sp"
+        >
+
+    </rubikstudio.library.LuckyWheelView>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/luckyWheel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/orange"
+        android:text="@string/go_button"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/inviteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/luckyWheel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/orange"
+        android:text="@string/tell_your_friends"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

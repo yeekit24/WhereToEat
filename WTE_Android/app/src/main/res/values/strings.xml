@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Where To Eat</string>
+
+    <!--Universal stuff-->
+    <string name="icon">Icon</string>
+    <string name="powered">Powered by PloyWide</string>
+
+    <string name="setting">Setting</string>
+    <string name="more">More</string>
+    <string name="food_choice">Add your food choice</string>
+    <string name="pick_random_food">Back to Main Page</string>
+    <string name="nearby_restaurant">Nearby restaurant</string>
+
+
+    <!--Permission String-->
+    <string name="need_permission">Need Permissions</string>
+    <string name="go_to_setting">GOTO SETTINGS</string>
+    <string name="location_permission_needed">We need your Location Permission in order to find your Nearby Restaurant . You can grant them in app settings.</string>
+
+    <!--Dialog Fragment-->
+    <string name="result_text">Today let\'s eat at</string>
+    <string name="tell_your_friends">Tell your friend!</string>
+
+    <!-- Google stuff-->
+    <string name="google_map_api_key">AIzaSyBqCQN-YgOtB8R7X0KqvA8tD7RQXCY1Dzs</string>
+
+    <!--main activity-->
+    <string name="go_button">Go!</string>
+
+    <!--fast food brand-->
+    <string name="mcd">Mc Donalds</string>
+    <string name="kfc">KFC</string>
+    <string name="joli">Jolibee</string>
+    <string name="mos">Mos Burgers</string>
+    <string name="fingers">4 Fingers</string>
+    <string name="wendy">Wendys</string>
+    <string name="texas">Texas Chicken</string>
+    <string name="sushi">Sushi</string>
+    <string name="pizza">Pizza Hut</string>
+    <string name="domino">Domino</string>
+    <string name="carl">Carl Jr</string>
+    <string name="starbucks">Starbucks</string>
+    
+</resources>

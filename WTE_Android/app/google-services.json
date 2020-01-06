@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757141296148",
+    "firebase_url": "https://where-to-eat-now.firebaseio.com",
+    "project_id": "where-to-eat-now",
+    "storage_bucket": "where-to-eat-now.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757141296148:android:6816e3f22ebcadef",
+        "android_client_info": {
+          "package_name": "ploywide.com.wheretoeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757141296148-mrjnac4t40k120jg3q4i6cvcl3bj7jcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ploywide.com.wheretoeat",
+            "certificate_hash": "5a63535226321a03607acdf6736b1f048d219998"
+          }
+        },
+        {
+          "client_id": "757141296148-44cjdp6cddunu3ouj4js9badrp6cepjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCho03QCe9quqB_R0I-6SMegAvlnqohDDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757141296148-44cjdp6cddunu3ouj4js9badrp6cepjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
