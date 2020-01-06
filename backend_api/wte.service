@@ -3,11 +3,11 @@ Description=uWSGI instance to serve wte
 After=network.target
 
 [Service]
-User=ploywide
+User=virdue
 Group=www-data
-WorkingDirectory=/var/www/wte
-Environment="PATH=/var/www/wte/venv/bin"
-ExecStart=/var/www/wte/venv/bin/uwsgi --ini config.ini
+WorkingDirectory=/home/virdue/WhereToEat/backend_api
+Environment="PATH=/home/virdue/WhereToEat/backend_api/venv/bin"
+ExecStart=/home/virdue/WhereToEat/backend_api/venv/bin/uwsgi --ini config.ini
 
 [Install]
 WantedBy=multi-user.target

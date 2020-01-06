@@ -253,6 +253,3 @@ def delete_choice_profile():
 def update_choice_profile():
     pass
 
-
-if __name__ == '__main__':
-    app.run('0.0.0.0')
